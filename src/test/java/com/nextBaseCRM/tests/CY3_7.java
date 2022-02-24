@@ -2,14 +2,14 @@ package com.nextBaseCRM.tests;
 
 import org.testng.annotations.Test;
 
-public class VoteTest extends TestBase{
+public class CY3_7 extends TestBase{
 
     @Test
-    public void  test1(){
+    public void  Vote(){
         System.out.println(driver.getCurrentUrl());
 
 // // //
-
+//
     }
 
 
