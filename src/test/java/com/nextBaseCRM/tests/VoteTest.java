@@ -8,7 +8,7 @@ public class VoteTest extends TestBase{
     public void  test1(){
         System.out.println(driver.getCurrentUrl());
 
-//
+// // //
 
     }
 
