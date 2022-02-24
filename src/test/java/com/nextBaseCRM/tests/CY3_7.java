@@ -8,8 +8,7 @@ public class CY3_7 extends TestBase{
     public void  Vote(){
         System.out.println(driver.getCurrentUrl());
 
-// // //
-//
+        //
     }
 
 

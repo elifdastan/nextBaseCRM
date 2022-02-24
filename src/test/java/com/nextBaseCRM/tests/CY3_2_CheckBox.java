@@ -11,16 +11,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-    public class CY3_2_CheckBox {
-        public WebDriver driver;
-
-        @BeforeMethod
-        public void setupMethod() {
-            driver = WebDriverFactory.getDriver("chrome");
-            driver.manage().window().maximize();
-            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-            driver.navigate().to("https://login.nextbasecrm.com");
-        }
+    public class CY3_2_CheckBox extends TestBase {
 
 
         @Test
@@ -46,12 +37,6 @@ import java.util.concurrent.TimeUnit;
             String actualCheckBoxText = checBoxText.getText();
             Assert.assertEquals(actualCheckBoxText, expectedCheckBoxText, "CheckBox text verification FAILED!!!");
 
-        }
-
-
-        @AfterMethod
-        public void tearDown() {
-            driver.quit();
         }
 
     }
