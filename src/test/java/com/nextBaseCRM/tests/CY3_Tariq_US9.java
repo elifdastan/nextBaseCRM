@@ -30,7 +30,6 @@ public class CY3_Tariq_US9 {
     public void afterMethod() {
         //  driver.close();
     }
-
     @Test
     // using Configuration.properties to set up the environment
     public void US009() throws InterruptedException {
