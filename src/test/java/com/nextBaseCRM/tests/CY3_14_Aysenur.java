@@ -52,7 +52,7 @@ public class CY3_14_Aysenur  {
 
         WebElement windowsButton = driver.findElement(By.cssSelector("a[style='width: 37%;'"));
         System.out.println("windowsButton.isDisplayed(): " + windowsButton.isDisplayed());
-
+//
 
     }
 
